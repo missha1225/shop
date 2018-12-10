@@ -1,0 +1,135 @@
+.catalog-main {
+  margin: 32px 32px 0 32px;
+  background: white;
+}
+
+.catalog-main .catalog-category {
+  font-size: 12px;
+  color: #606060;
+  margin-bottom: 24px;
+}
+
+.catalog-main .catalog-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.catalog-main .catalog-title-tovar {
+  font-size: 14px;
+  color: #606060;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.catalog-main .catalog-flex-select {
+  font-size: 12px;
+  color: #606060;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catalog-main .catalog-flex-select1 {
+  position: relative;
+}
+
+.catalog-flex-select1:after {
+  position: absolute;
+  content: '';
+}
+
+.catalog-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.catalog-items .catalog-item {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 22%;
+  margin-bottom: 60px;
+}
+
+.catalog-items .catalog-add-to-cart-button {
+  font-size: 14px;
+  color: white;
+  background: #f68236;
+  width: 194px;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.catalog-items .catalog-add-to-cart-button:hover {
+  cursor: pointer;
+}
+
+.catalog-items .catalog-image-container {
+  width: 100%;
+  height: 270px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 35px;
+  border: 1px solid lightgray;
+}
+
+.catalog-items .catalog-item-image {
+  width: 100%;
+  padding: 5% 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.catalog-items .catalog-item-price {
+  margin: 15px 0 10px 0;
+  text-align: center;
+}
+
+.catalog-size {
+  margin-bottom: 10px;
+}
+
+.catalog-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catalog-pages div {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.catalog-pages .catalog-page {
+  background: white;
+}
+
+.catalog-pages .catalog-page:hover,
+.catalog-pages .catalog-page-disabled:hover {
+  cursor: pointer;
+}
+
+.catalog-page-disabled {
+  background: gray;
+}
+/*# sourceMappingURL=catalog.css.map */

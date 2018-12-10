@@ -1,0 +1,125 @@
+.goods-main {
+  margin: 32px 32px 0 32px;
+  background: white;
+}
+
+.goods-main .goods-category {
+  font-size: 12px;
+  color: #606060;
+  margin-bottom: 24px;
+}
+
+.goods-main .goods-image {
+  background: #fafafa;
+  margin-bottom: 60px;
+}
+
+.goods-main .goods-image .goods-image-item {
+  display: block;
+  margin: 0 auto;
+  max-height: 400px;
+}
+
+.goods-main .goods-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.goods-main .goods-vendor-code {
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
+.goods-main .goods-price {
+  text-align: center;
+  color: #606060;
+  margin-bottom: 30px;
+}
+
+.goods-main .goods-description {
+  font-size: 14px;
+  color: #606060;
+  text-align: center;
+  width: 740px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+.goods-main .goods-size {
+  text-align: center;
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 18px;
+  margin-top: 40px;
+}
+
+.goods-main .goods-size-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.goods-main .goods-size-item {
+  text-align: center;
+  color: #606060;
+  border: 1px solid #606060;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+.goods-main .goods-size-item:last-of-type {
+  margin-right: 0;
+}
+
+.goods-main .goods-size-item:hover {
+  cursor: pointer;
+}
+
+.goods-main .goods-size-item-absent {
+  text-align: center;
+  color: #c4c4c4;
+  background-color: rgba(170, 170, 170, 0.247);
+  border: 1px solid #606060;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+.goods-main .goods-add-to-cart-button {
+  font-size: 14px;
+  color: white;
+  background: #f68236;
+  width: 194px;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.goods-main .goods-add-to-cart-button:hover {
+  cursor: pointer;
+}
+
+.goods-main .goods-empty {
+  height: 78px;
+}
+
+.goods-main .goods-size-item-selected {
+  background: #f68236;
+}
+/*# sourceMappingURL=good.css.map */

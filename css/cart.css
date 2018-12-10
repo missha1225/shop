@@ -1,0 +1,58 @@
+.cart-center {
+  text-align: center;
+}
+
+.cart-center > h2 {
+  text-align: center;
+}
+
+.cart-center > p {
+  color: #505050;
+  text-align: center;
+}
+
+.cart-product {
+  height: 100px;
+}
+
+.cart-form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cart-form-variant {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.forma input {
+  border: 3px solid #505050;
+}
+
+.cart-form-name {
+  margin: 30px auto;
+  width: 500px;
+}
+
+.cart-form-adres {
+  margin: 30px auto;
+  width: 500px;
+}
+
+.cart-form-city {
+  width: 500px;
+}
+
+.cart-form-telefone {
+  width: 500px;
+}
+
+.forma {
+  margin: 30px auto;
+}
+
+.address-form {
+    border: 3px solid rgb(240, 103, 39);
+    padding: 10px 15px;
+}
+/*# sourceMappingURL=cart.css.map */

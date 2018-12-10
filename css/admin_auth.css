@@ -1,0 +1,17 @@
+form {
+    margin:200px auto;
+    padding:0;
+    background: rgb(135, 144, 222);
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    width:600px; 
+    text-align: center;
+    color: black;
+    
+}
+.btn {
+    color: black;
+    background-color: rgb(135, 144, 222);
+    width:600px;
+}
+
